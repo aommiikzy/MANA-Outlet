@@ -38,6 +38,18 @@
 
 		}
 
+		.btn {
+
+			background-color: #FF6600;
+
+		}
+
+		.btn:hover {
+			background-color: #E86C1B;
+			/* Green */
+			color: white;
+		}
+
 		placeholder {
 			text-align: right;
 		}
@@ -73,30 +85,30 @@
 		<div class="row">
 			<form id="carForm" class="col s12" autocomplete="off">
 
-			
 
-					<div style="float:left;width:50%">ชื่อแคชเชียร์</div>
+
+				<div style="float:left;width:50%">ชื่อแคชเชียร์</div>
+				<div style="float:left;width:50%">
+					<input id="dateInput" type="text" required class="validate" placeholder="ชื่อแคชเชียร์" /></div>
+
+					<div style="float:left;width:50%">สาขา</div>
 					<div style="float:left;width:50%">
-						<input id="dateInput" type="text" required class="validate" placeholder="ชื่อแคชเชียร์" /></div>
+						<input id="dateInput" type="text" required class="validate" placeholder="สาขา" /></div>
 
-						<div style="float:left;width:50%">สาขา</div>
+						<div style="float:left;width:50%">ยอดเงินสด</div>
 						<div style="float:left;width:50%">
-							<input id="dateInput" type="text" required class="validate" placeholder="สาขา" /></div>
+							<input id="dateInput" type="text" required class="validate" placeholder="ยอดเงินสด" /></div>
 
-							<div style="float:left;width:50%">ยอดเงินสด</div>
+							<div style="float:left;width:50%">ยอดเงินโอน</div>
 							<div style="float:left;width:50%">
-								<input id="dateInput" type="text" required class="validate" placeholder="ยอดเงินสด" /></div>
+								<input id="dateInput" type="text" required class="validate" placeholder="ยอดเงินโอน" /></div>
 
-								<div style="float:left;width:50%">ยอดเงินโอน</div>
+								<div style="float:left;width:50%">ยอดจาก POS</div>
 								<div style="float:left;width:50%">
-									<input id="dateInput" type="text" required class="validate" placeholder="ยอดเงินโอน" /></div>
-
-									<div style="float:left;width:50%">ยอดจาก POS</div>
-									<div style="float:left;width:50%">
-										<input id="dateInput" type="text" required class="validate" placeholder="ยอดจาก POS" /></div>
+									<input id="dateInput" type="text" required class="validate" placeholder="ยอดจาก POS" /></div>
 
 
-										<button id="btn" class="btn waves-effect waves-light" type="submit" style = "margin-left:auto;margin-right:auto;display:block;margin-top:55%;margin-bottom:0%"" >
+									<button id="btn" class="btn waves-effect waves-light" type="submit" style = "margin-left:auto;margin-right:auto;display:block;margin-top:55%;margin-bottom:0%"" >
             บันทึกและส่ง
           </button>
 
